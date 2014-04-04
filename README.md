@@ -34,3 +34,7 @@ TwitterCounter twitterCounter = new TwitterCounter.Builder()
                                 .build();
 User user = twitterCounter.showUser("CocaCola");
 ```
+
+
+<b>Credits</b>
+This codebase is more of based upon the Twitter4J library. You can find it at https://github.com/yusuke/twitter4j/
