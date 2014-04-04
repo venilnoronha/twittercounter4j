@@ -1,7 +1,6 @@
 TwitterCounter4J
 ================
-This is a Java client for accessing the API described at http://twittercounter.com/pages/api.
-
+A Java client for accessing the Twitter Counter API. You can check out the API at http://twittercounter.com/pages/api
 
 Compiling
 ---------
