@@ -27,10 +27,10 @@ The below mentioned libraries are required for compiling the project.
 
 
 <b>Usage</b>
-<code>
+```java
 TwitterCounter twitterCounter = new TwitterCounter.Builder()
                                 .withDebugEnabled(false)
                                 .withApiKey("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") // Put your API key here
-				.build();
+                                .build();
 User user = twitterCounter.showUser("CocaCola");
-</code>
+```
