@@ -25,7 +25,8 @@ Licenses
 <b>Google GSON:</b> http://code.google.com/p/google-gson/source/browse/trunk/gson/LICENSE?r=369
 
 
-<b>Usage</b>
+Usage
+-----
 ```java
 TwitterCounter twitterCounter = new TwitterCounter.Builder()
                                 .withDebugEnabled(false)
