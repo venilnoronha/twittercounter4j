@@ -24,3 +24,12 @@ The below mentioned libraries are required for compiling the project.
 <b>Apache HttpClient:</b> https://hc.apache.org/httpclient-3.x/license.html
 
 <b>Google GSON:</b> http://code.google.com/p/google-gson/source/browse/trunk/gson/LICENSE?r=369
+
+
+<b>Usage</b>
+
+TwitterCounter twitterCounter = new TwitterCounter.Builder()
+                                .withDebugEnabled(false)
+										            .withApiKey("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") // Put your API key here
+										            .build();
+User user = twitterCounter.showUser("CocaCola");
