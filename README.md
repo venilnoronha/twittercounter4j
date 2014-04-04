@@ -18,9 +18,8 @@ The below mentioned libraries are required for compiling the project.
 <li>gson-2.2.4.jar</li>
 </ul>
 
-
-<b>Licenses for the above mentioned jars can be found at below mentioned locations.</b>
-
+Licenses
+--------
 <b>Apache HttpClient:</b> https://hc.apache.org/httpclient-3.x/license.html
 
 <b>Google GSON:</b> http://code.google.com/p/google-gson/source/browse/trunk/gson/LICENSE?r=369
@@ -35,6 +34,6 @@ TwitterCounter twitterCounter = new TwitterCounter.Builder()
 User user = twitterCounter.showUser("CocaCola");
 ```
 
-
-<b>Credits</b>
+Credits
+-------
 This codebase is more of based upon the Twitter4J library. You can find it at https://github.com/yusuke/twitter4j/
