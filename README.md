@@ -27,9 +27,10 @@ The below mentioned libraries are required for compiling the project.
 
 
 <b>Usage</b>
-
+<code>
 TwitterCounter twitterCounter = new TwitterCounter.Builder()
                                 .withDebugEnabled(false)
-										            .withApiKey("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") // Put your API key here
-										            .build();
+                                .withApiKey("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") // Put your API key here
+				.build();
 User user = twitterCounter.showUser("CocaCola");
+</code>
