@@ -1,5 +1,10 @@
 TwitterCounter4J
 ================
+This is a Java client for accessing the API described at http://twittercounter.com/pages/api.
+
+
+Compiling
+---------
 The below mentioned libraries are required for compiling the project.
 
 <b>Apache HttpClient</b>
