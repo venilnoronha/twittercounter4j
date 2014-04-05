@@ -3,35 +3,53 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>TwitterCounter4J by venilnoronha</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/venilnoronha/twittercounter4j">View on GitHub</a>
+    <div class="shell">
 
-    <header>
-      <div class="container">
-        <h1>TwitterCounter4J</h1>
-        <h2></h2>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>TwitterCounter4J</h1>
+            <h2>A Java client for consuming the Twitter Counter API</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-        <section id="downloads">
-          <a href="https://github.com/venilnoronha/twittercounter4j/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/venilnoronha/twittercounter4j/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/venilnoronha/twittercounter4j" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/venilnoronha/twittercounter4j/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/venilnoronha/twittercounter4j/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-    <div class="container">
+
+      <span class="banner-fix"></span>
+
+
       <section id="main_content">
         <h1>
 <a name="twittercounter4j" class="anchor" href="#twittercounter4j"><span class="octicon octicon-link"></span></a>TwitterCounter4J</h1>
 
-<p>A Java client for consuming the Twitter Counter API. You can check out the API at <a href="http://twittercounter.com/pages/api">http://twittercounter.com/pages/api</a></p>
+<p>A Java client for consuming the Twitter Counter API. You can check out the API at <a href="http://twittercounter.com/pages/api">http://twittercounter.com/pages/api</a>.</p>
 
 <h2>
 <a name="compiling" class="anchor" href="#compiling"><span class="octicon octicon-link"></span></a>Compiling</h2>
@@ -55,6 +73,10 @@
 </ul><h2>
 <a name="licenses" class="anchor" href="#licenses"><span class="octicon octicon-link"></span></a>Licenses</h2>
 
+<p>This project is based on the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" title="Apache License 2.0">Apache License 2.0</a></p>
+
+<p>This project requires external libraries from Apache and Google. The licenses for those components can be found at locations mentioned below.</p>
+
 <p><b>Apache HttpClient:</b> <a href="https://hc.apache.org/httpclient-3.x/license.html">https://hc.apache.org/httpclient-3.x/license.html</a></p>
 
 <p><b>Google GSON:</b> <a href="http://code.google.com/p/google-gson/source/browse/trunk/gson/LICENSE?r=369">http://code.google.com/p/google-gson/source/browse/trunk/gson/LICENSE?r=369</a></p>
@@ -72,10 +94,33 @@
 <h2>
 <a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
 
-<p>This codebase is more of based upon the Twitter4J library. You can find it at <a href="https://github.com/yusuke/twitter4j/">https://github.com/yusuke/twitter4j/</a></p>
+<p>This codebase is more of based upon the Twitter4J library. You can find it at <a href="https://github.com/yusuke/twitter4j/">https://github.com/yusuke/twitter4j/</a>.</p>
       </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/venilnoronha">venilnoronha</a> can be found on <a href="https://github.com/venilnoronha/twittercounter4j">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-49737010-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
   </body>
 </html>
