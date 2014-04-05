@@ -45,4 +45,4 @@ User user = twitterCounter.showUser("CocaCola");
 
 Credits
 -------
-This codebase is more of based upon the Twitter4J library. You can find it at https://github.com/yusuke/twitter4j/
+This codebase is more of based upon the Twitter4J library. You can find it at https://github.com/yusuke/twitter4j/.
