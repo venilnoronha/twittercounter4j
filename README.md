@@ -24,6 +24,10 @@ The below mentioned libraries are required for compiling the project.
 
 Licenses
 --------
+This project is based on the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" title="Apache License 2.0">Apache License 2.0</a>
+
+This project requires external libraries from Apache and Google. The licenses for those components can be found at locations mentioned below.
+
 <b>Apache HttpClient:</b> https://hc.apache.org/httpclient-3.x/license.html
 
 <b>Google GSON:</b> http://code.google.com/p/google-gson/source/browse/trunk/gson/LICENSE?r=369
