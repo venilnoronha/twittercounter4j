@@ -1,6 +1,6 @@
 TwitterCounter4J
 ================
-An unofficial Java library for consuming the Twitter Counter API. You can check out the API at http://twittercounter.com/pages/api.
+TwitterCounter4J is an unofficial Java library for consuming the Twitter Counter API. You can check out the API at http://twittercounter.com/pages/api.
 
 Compiling
 ---------
